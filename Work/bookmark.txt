@@ -1,0 +1,1 @@
+You are currently working on Exercise 1.8 - the wrong solution is in mortgage_bad.py
