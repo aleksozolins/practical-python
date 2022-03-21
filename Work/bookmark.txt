@@ -1,3 +1,3 @@
-Currently on Exercise 1.17 (strings)
+1.6 (Files)
 
-Might have to go back and repeat to make sure I have the right variables in place.
+1.26 (Exercises)

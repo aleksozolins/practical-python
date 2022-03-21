@@ -18,7 +18,7 @@ while principal > 0:
         if principal < 0:
             total_paid = total_paid - principal
             principal = principal - principal
-        print (month, total_paid, principal, '*')
+        print (f'month={month}, total paid={total_paid:0.2f}, principal={principal:0.2f}, *')
         month = month + 1
     else:
         month < extra_payment_start_month or month > extra_payment_end_month
@@ -27,7 +27,7 @@ while principal > 0:
         if principal < 0:
             total_paid = total_paid - principal
             principal = principal - principal
-        print (month, total_paid, principal)
+        print (f'month={month}, total paid={total_paid:0.2f}, principal={principal:0.2f}')
         month = month + 1
 
 print('Total paid', round(total_paid, 2))
